@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Inter:wght@100..900&display=swap');
+
+
+.recipe-container{
+    /* border: 1px solid orangered; */
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin: 20px;
+    box-shadow: 0px 15px 12px 0px rgba(203,203,203,0.89);
+    -webkit-box-shadow: 0px 22px 12px 0px rgba(203,203,203,0.89);
+    -moz-box-shadow: 0px 22px 12px 0px rgba(203,203,203,0.89);
+}
+
+
+.ingredients{
+    margin-bottom: 15px;
+    margin-top: 14px;
+    border: 1px solid rgba(3, 102, 3, 0.866);
+    border-radius: 30px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.ingredients:hover{
+    background-color: rgba(3, 102, 3, 0.866);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.ingredients p{
+    margin-top: 3px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.complete{
+    margin-bottom: 5px;
+    border: 1px solid rgba(41, 41, 197, 0.712);
+    border-radius: 30px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.complete:hover{
+    border: none;
+    background-color: rgba(41, 41, 197, 0.712);
+    color: white;
+    cursor: pointer;
+}
+
+.complete p{
+    margin-top: 3px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+
+}
+
+.image h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+.head{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.image p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5px; */
+    width: 350px;
+    height: 250px;
+}
