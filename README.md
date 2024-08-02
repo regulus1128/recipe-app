@@ -1,5 +1,5 @@
 # recipe-app
-A simple recipe app made using React
+A simple recipe app made using React. Users can search recipes and look for ingredients.
 
 ## Installation
 
