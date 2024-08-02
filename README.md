@@ -6,7 +6,7 @@ A simple recipe app made using React
 1. Clone the repository:
 `git clone https://github.com/regulus1128/recipe-app.git`
 
-`cd quote-generator`
+  `cd quote-generator`
 
 3. Install dependencies
 `npm install`
